@@ -1,0 +1,78 @@
+*{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+body main form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    width: 500px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    border: 3px solid black;
+    gap: 40px;
+    padding: 30px;
+    align-items: center;
+}
+
+body main form h{
+    width: 100%;
+    text-align: center;
+}
+
+body main form div{
+    background-color: rgb(255, 255, 255);
+}
+
+body main form div.campos{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    flex-wrap: wrap;
+    width: 91%;
+    height: 183px;
+    padding-left: 40px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+body main form div.description{
+    border: 3px solid black;
+    height: 300px;
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 40px;
+}
+
+textarea{
+    max-width: 425px;
+    max-height: 178px;
+    width: 425px;
+    height: 160px;
+}
+
+button{
+    width: 80px;
+    height: 44px;
+    border-radius: 40px;
+    background-color: red;
+    color: white;
+}
+
+input{
+    width: 160px;
+}

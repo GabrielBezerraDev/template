@@ -1,0 +1,187 @@
+*{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body nav{
+    width: 100%;
+    height: 150px;
+    background-color: red;
+}
+
+body div.descricao, body main{
+    position: absolute;
+    width: 1200px;
+    background-color: white;
+}
+
+body div.descricao {
+    top: 100px;
+    left: 100px;
+    height: 200px;
+
+}
+
+body main{
+    top: 330px;
+    left: 100px;
+    height: 600px;
+}
+
+body main div.membros{
+    height: 75%;
+    display: flex;
+    padding: 30px;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    column-gap: 90px;
+    row-gap: 30px;
+}
+
+body main div.membros div.membro{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 3px solid black;
+    position: relative;
+}
+
+body main div.options, body aside div.titulo{
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px #000000 solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+body aside div.titulo{
+    justify-content: center;
+}
+
+body main div.options button.adicionar{
+    margin-left: 50px;
+}
+
+body main div.options button.adicionar, body main div.options button.apagar{
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+}
+
+body aside{
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 600px;
+    height: 830px;
+    background-color: white;
+}
+
+body div.descricao, body aside, body main{
+    border: 3px #000000 solid;
+    border-radius: 40px;
+}
+
+body div.descricao div.portrait, body main div.membros div.membro div.portrait{
+    position: absolute;
+    left: 100px;
+    border-radius: 120px;
+    border: 3px #000000 solid;
+    top: 25px;
+    height: 150px;
+    width: 150px;
+}
+
+body main div.membros div.membro div.portrait{
+    left: 75px;
+}
+
+body div.descricao div.rotulo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    width: 900px;
+    height: 200px;
+    border-radius: 40px;
+    justify-content: center;
+    gap: 3px;
+}
+
+body div.descricao div.rotulo p{
+    margin-left: 40px;
+}
+
+body div.descricao div.rotulo select{
+    background-color: red;
+    width: 120px;
+    position: absolute;
+    right: 260px;
+    bottom: 50px;
+    color: white;
+}
+
+body div.descricao div.rotulo button.acessar, body div.descricao div.rotulo button.editar{
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    top: 70px;
+    border-radius: 40px;
+    color: white;
+    right: 250px;
+}
+
+body div.descricao div.rotulo button.acessar{
+    top: 20px;
+}
+
+body div.descricao div.rotulo button.editar{
+    bottom: 60px;
+}
+
+.pictureImage{
+    border-radius: 76px;
+    width: 147px;
+    height: 147px;
+    right: -1px;
+    top: 0px;
+    position: absolute;
+}
+
+#photo, #photoOne, #photoTwo, #photoThree, #photoFour{
+    display: none;
+}
+
+.photoPortrait{
+    position: absolute;
+    top: 46px;
+    left: 43px;
+}
+
+
